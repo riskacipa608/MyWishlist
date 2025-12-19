@@ -1,0 +1,130 @@
+/* login */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e8f1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #4a78c2;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #4a78c2;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #bcd3ff;
+    outline: none;
+}
+
+/* ini lupa */
+
+input:focus {
+    border-color: #4a78c2;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4a78c2;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #3b63a0;
+}
+
+.register {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #4a78c2;
+    text-decoration: none;
+}
+
+/* container umum */
+.container {
+    width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #cbd8ff;
+}
+
+/* item box */
+.item {
+    background: #f8faff;
+    border: 1px solid #bcd3ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+/* tombol */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #4a78c2;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3b68a8;
+}
+
+.btn-delete {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #d9534f;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-delete:hover {
+    background: #c64542;
+}
+
+.btn-profile {
+    float: right;
+    padding: 8px 15px;
+    background: #6aa7ff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}

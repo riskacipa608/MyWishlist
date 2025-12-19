@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f4f8ff;
+}
+
+/* NAVBAR */
+
+.navbar {
+    width: 100%;
+    padding: 15px 40px;
+    background: #a9c8ff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar .logout {
+    background: #ff6b6b;
+    padding: 6px 14px;
+    border-radius: 6px;
+}
+
+.navbar .logout:hover {
+    background: #ff4b4b;
+}
+
+/* HEADER */
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    color: #3b4c68;
+}
+
+.btn-add {
+    background: #7ba7ff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-add:hover {
+    background: #5f8fff;
+}
+
+/* CARD LIST */
+
+.wishlist-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card h3 {
+    color: #456c9f;
+    margin-bottom: 8px;
+}
+
+.card .target {
+    color: #6c7b8c;
+    margin-bottom: 12px;
+}
+
+/* PROGRESS BAR */
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background: #e3ecff;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.bar {
+    height: 100%;
+    background: #7ba7ff;
+}
+
+/* ACTION BUTTONS */
+
+.actions {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.edit {
+    color: #3d7cff;
+}
+
+.delete {
+    color: #ff5252;
+}
+
+.add {
+    color: #00a86b;
+}
+
+/* WELCOME PAGE */
+body.welcome {
+    background: #e1f0ff;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-box {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 360px;
+}
+
+.welcome-box h1 {
+    color: #4d7ddc;
+    margin-bottom: 10px;
+}
+
+.welcome-box p {
+    color: #6c6c6c;
+    margin-bottom: 25px;
+}
+
+.welcome-buttons .btn {
+    display: block;
+    text-decoration: none;
+    background: #4d7ddc;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: 0.2s;
+}
+
+.welcome-buttons .btn.register {
+    background: #8ebdff;
+}
+
+.welcome-buttons .btn:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", "Segoe UI", sans-serif;
+}
+
+/* Background pastel */
+body {
+    background: linear-gradient(180deg, #fdf7ff, #e7f0ff, #f3f8ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.profile-card {
+    width: 90%;
+    max-width: 370px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 8px 15px rgba(150, 180, 255, 0.25);
+    border: 2px solid #d6e4ff;
+}
+
+/* Header text */
+.profile-card h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5b6fa6;
+    margin-bottom: 5px;
+}
+
+.email {
+    text-align: center;
+    font-size: 14px;
+    color: #7a8bb9;
+    margin-bottom: 25px;
+}
+
+/* Stats area */
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.stat-item {
+    background: #f7faff;
+    border-radius: 18px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border: 1.5px solid #e2eaff;
+    box-shadow: 0 4px 8px rgba(180, 200, 255, 0.1);
+}
+
+/* Emoji icon */
+.stat-icon {
+    font-size: 24px;
+}
+
+/* Text block */
+.stat-text span:first-child {
+    font-size: 13px;
+    color: #7e8ab1;
+}
+
+.stat-text span:last-child {
+    font-size: 17px;
+    font-weight: 600;
+    color: #5a6fa3;
+}
+
+/* Cute buttons */
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #a9c8ff;
+    padding: 12px;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 5px 12px rgba(150, 180, 255, 0.4);
+    border: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background: #8fb7ff;
+    transform: translateY(-2px);
+}
